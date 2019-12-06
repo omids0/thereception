@@ -13,8 +13,6 @@ const store = configureStore()
 
 const state = store.getState()
 
-store.dispatch(addTurn({fileNum: 1372, fullName: 'davood khatar', phoneNum: '0935123456', visitingTime: 140, createdAt: 110}))
-
 store.subscribe(() => {
     console.log(store.getState())
 })
