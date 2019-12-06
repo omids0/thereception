@@ -1,0 +1,18 @@
+.button {
+    background: red;
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: $font-size-large;
+    font-weight: 300;
+    padding: $s-size;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.button--secondery {
+    background: white;
+    color: red;
+    border: 2px solid red;
+    margin-bottom: $s-size;
+}
